@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 const asnwer = await inquirer.prompt([
-    { message: "Enter first number", type: "number", name: "fisrtNumber" },
-    { message: "Enter second number", type: "number", name: "secondNumber" },
+    { message: "Enter the first number", type: "number", name: "fisrtNumber" },
+    { message: "Enter the second number", type: "number", name: "secondNumber" },
     {
         message: "Select one of the operator to perform operation",
         type: "list",
@@ -25,3 +25,4 @@ else if (asnwer.operator === "Division") {
 else {
     console.log("Please select  Operator");
 }
+console.log("Thx For Visiting Type 'npx ak47-rpg-calculator' To Use Calculator Again ");

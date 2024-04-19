@@ -23,5 +23,4 @@ const asnwer =await inquirer.prompt([
   } else {
     console.log("Please select  Operator")
 }
-
-console.log("The End");
+console.log("Thx For Visiting Type 'npx ak47-rpg-calculator' To Use Calculator Again ")
